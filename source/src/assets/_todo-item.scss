@@ -1,0 +1,32 @@
+.todo-wrap {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .stared {
+        background-color: #dbf0f3;
+    }
+
+    .todo-item {
+        position: relative;
+        .delete-item {
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            cursor: pointer;
+        }
+        .handle {
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            cursor: move;
+            opacity: 0;
+            transform: translateY(-50%);
+        }
+    }
+    .todo-item:hover {
+        .handle {
+            opacity: 1;
+        }
+    }
+}

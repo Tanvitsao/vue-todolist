@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/_functions";
+@import "./helpers/_variables";
+@import "~bootstrap/scss/bootstrap";
+
+@import "./_edit-item";
+@import "./_todo-item";
+
+.bg-image {
+    background-image: url('https://images.unsplash.com/photo-1534412027333-5e25ba9074f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=841&q=80');
+    height: 45%;
+    background-size: 110%;
+    background-position: center 80%;
+    // background-attachment: fixed;
+}
+
+.completed {
+    text-decoration: line-through;
+}
